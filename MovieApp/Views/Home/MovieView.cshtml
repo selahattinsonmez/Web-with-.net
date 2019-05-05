@@ -1,0 +1,137 @@
+﻿@using MovieApp.ViewModels;
+@using MovieApp.Controllers;
+
+@model MovieComments
+
+@{
+    ViewData["Title"] = "MovieView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<link href="~/css/movieview.css" rel="stylesheet" />
+
+
+<!--
+<table width="1000" height="50" bgcolor="#d91d2a">
+    <tr>
+        <td> <h1> <b> @Model.movie.Title</b> </h1> </td>
+
+
+    </tr>
+
+</table>
+<br /> <br /> <p></p>
+
+
+<img height="350" width="300" align="left" src="~/images/@Model.movie.Image" />
+
+<table align="right" width="600" height="350" color="white">
+    <tr>
+        <td>  <b> @Model.movie.Description </b></td>
+    </tr>
+
+</table>
+
+<button class="button">Release Year: @Model.movie.ReleaseYear</button><br />
+<button class="button">Rating:@Model.movie.Rating</button><br />
+<button class="button">
+    Genre:
+    @foreach (var cat in Model.categories)
+    {
+        @cat.CategoryName
+
+    }
+</button><br />
+
+    -->
+
+<div class="m">
+     <div class="mi">
+        <img src="~/images/@Model.movie.Image" />
+    </div>
+     <div class="mr">
+         <center><h1>@Model.movie.Title</h1></center>
+         <p> (@Model.movie.ReleaseYear)</p><br /><br />
+        <p>
+            <img src="~/images/imdb.png" /> <br />
+         @Model.movie.Rating
+        </p><br /><br />
+         <p>
+             Genre :
+             @foreach (var cat in Model.categories)
+             {
+                 @cat.CategoryName <label> / </label>
+
+             }
+         </p>
+     </div>
+</div>
+
+<div class="md">
+
+    <center><h1>Synopsis</h1></center><br /><br />
+
+    <p> @Model.movie.Description </p>
+
+</div>
+
+<br /><br /><br /><br /><br />
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-12">
+            <center>
+                <form action="" method="POST" id="commentform">
+
+                    <div id="comment-name" class="form-row">
+                        <input type="text" placeholder="Name (Required)" name="dname" id="name" required>
+                    </div><br />
+                    <div id="comment-surname" class="form-row">
+                        <input type="text" placeholder="Surname (Required)" name="dsurname" id="surname" required>
+                    </div><br />
+                    <div id="comment-email" class="form-row">
+                        <input type="email" placeholder="E Mail (Required)" name="demail" id="email" required>
+                    </div><br />
+                    <div id="comment-message" class="form-row">
+                        <textarea name="comment" placeholder="Write your comment (Required)" id="comment" required></textarea>
+                    </div><br />
+
+                    <input type="submit" name="@Model.movie.MovieId" id="commentSubmit" value="Comment"><br />
+                </form>
+            </center>
+        </div>
+    </div>
+}
+<br /><br />
+
+@foreach (var yrm in Model.comments)
+{
+    <center>
+        <div class="commentsborder">
+            <div class="commentsimg">
+                <img src="~/images/icon.png" />
+            </div>
+            <div class="comments">
+                <div class="commentshead">
+                    <p> @yrm.Name @yrm.Surname</p>
+                </div>
+                <div class="commentsbody">
+                    <p> @yrm.Comments</p>
+                </div>
+            </div>
+        </div>
+    </center>
+    <br /><br />
+
+}
+
+
+
+
+
+
+
+
+
+
+

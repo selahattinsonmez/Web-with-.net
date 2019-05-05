@@ -1,0 +1,67 @@
+﻿@using MovieApp.Models;
+@model IEnumerable<Category>
+@{
+    ViewData["Title"] = "AddMovieView";
+}
+
+<link href="~/css/all.css" rel="stylesheet" />
+<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+<script src="~/js/jquery-3.3.1.slim.min.js"></script>
+<script src="~/js/popper.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+   
+<h2 style="color:white;">Add Movie</h2><br /><br />
+
+<form class="form-horizontal" asp-controller="Home" asp-action="AddMovieView" method="post">
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="text" placeholder="Movie Title" name="Title" required/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <input type="text" placeholder="Release Year" name="ReleaseYear" required/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+
+            <input type="text" placeholder="Rating" name="Rating" required/>
+        </div>
+    </div>
+       <div class="form-group">
+        <div class="col-md-10">
+            <input type="text" placeholder="Image Name" name="Image"required />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <textarea type="text" placeholder="Description" name="Description" required ></textarea>
+        </div>
+    </div>
+
+ 
+
+    <div class="form-group">
+        <div class="col-md-10">
+            <h4 style="color:white">Category:</h4>
+            @foreach (var cat in Model)
+            {
+             <label style="color:white" ;> <input style="width:20px;" type="checkbox" value="@cat.CategoryId" name="catid"/>@cat.CategoryName &nbsp;</label> 
+            }
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <button type="submit" class="btn btn-default">Add</button>
+        </div>
+    </div>
+
+</form>
+
+

@@ -1,0 +1,63 @@
+﻿
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>CENG Movie</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <script src="~/js/jquery-1.4.2.min.js"></script>
+    <script src="~/js/jquery-func.js"></script>
+    <link href="~/css/ie6.css" rel="stylesheet" />
+
+   
+</head>
+<body>
+    <!-- START PAGE SOURCE -->
+    <div id="shell">
+
+        <div id="header">
+            <h1 id="logo"><a asp-controller="Home" asp-action="Index"  asp-route-id="0"><img src="~/images/logo.png" /></a></h1>
+            <div id="navigation">
+                <ul>
+                   
+                    <li><a asp-action="Login">LOG IN</a></li>
+                    <li><a asp-action="Index" asp-route-rating="7">IMDB 7+</a></li>
+                    <li><a asp-action="Index" asp-route-id="0">HOME</a></li>
+
+
+                </ul>
+            </div>
+            <div id="sub-navigation">
+                <ul>
+                    <li><a asp-action="Index" asp-route-id="0">ALL</a></li>
+                    <li><a asp-action="Index" asp-route-id="1">ACTION</a></li>
+                    <li><a asp-action="Index" asp-route-id="2">ANIMATION</a></li>
+                    <li><a asp-action="Index" asp-route-id="4">COMEDY</a></li>
+                    <li><a asp-action="Index" asp-route-id="5">CRIME</a></li>
+                    <li><a asp-action="Index" asp-route-id="7">DRAMA</a></li>
+                    <li><a asp-action="Index" asp-route-id="8">FANTASY</a></li>
+                    <li><a asp-action="Index" asp-route-id="9">HORROR</a></li>
+                    <li><a asp-action="Index" asp-route-id="10">MYSTERY</a></li>
+                    <li><a asp-action="Index" asp-route-id="11">ROMANCE</a></li>
+                    <li><a asp-action="Index" asp-route-id="12">SCI-FI</a></li>
+                    <li><a asp-action="Index" asp-route-id="13">THRILLER</a></li>
+                </ul>
+              
+                    <div id="search">
+                    <form asp-action="Index" method="get" accept-charset="utf-8">
+                            <label for="search-field">SEARCH</label>
+                             <input type="text" name="search" placeholder="Enter search here" id="search-field" class="blink search-field" />
+                            <input type="submit" value="GO!" class="search-button" />
+                        </form>
+                    </div>
+              
+            </div>
+                <div id="main">
+
+                    @RenderBody()
+
+                </div>
+            </div>
+        </div>
+                <!-- END PAGE  SOURCE -->
+        </body>
+        </html>
