@@ -1,6 +1,0 @@
-Berkhan Halaçoglu 2014555038
-Selahattin Sönmez 2014555302
-Sükran Kabasakal  2014555040
-
-Websitemiz araba kiralamak için yapilabilen.Rervasyon yapilabilen,rezervayon numarasi görüntülenebilen ve 
-müsteri kaydi tutam bir web site.
