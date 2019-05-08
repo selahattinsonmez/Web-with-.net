@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Reservation";
+    Layout = "~/Views/Home/_Shared.cshtml";
+
+}
+
+@{ 
+    string a = null;
+}
+
+<script type="text/javascript">
+function Reservation() {
+    var deger = document.getElementById("CustomerSSN").value;
+    a = "/Home/Reservation/MyReservation/" + deger;
+    window.location.href=a
+}
+</script>
+
+<p style="font-family:'Franklin Gothic'; font-size:16px;">Tc Kimlik Numaranızı Giriniz:</p>
+<input type="text" id="CustomerSSN" />
+<br />
+
+    <button id="ReservationButton" type="button" onclick=Reservation()>Sorgula</button>
+    
+

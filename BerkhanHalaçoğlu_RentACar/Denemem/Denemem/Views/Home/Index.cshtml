@@ -1,0 +1,35 @@
+﻿@model IEnumerable<Denemem.Models.Car>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Home/_Shared.cshtml";
+}
+
+
+
+@foreach (var item in Model)
+{
+    <div class="icerik">
+        @{ 
+            var a = "/Home/Info/" + Html.DisplayFor(modelItem => item.CarID).ToString();
+            string ımg = @item.CarModel+".png";
+            
+        }
+        <a href="@a">
+            <div class="satir">
+                <div>
+                    <img src="~/Content/Img/@ımg" id="IndexImg" />             
+                </div>
+            <div id="IndexPdiv">
+                <p >@Html.DisplayFor(modelItem => item.CarModel)</p>
+               
+            </div>
+                <div id="IndexPdiv1">
+                    <p>@Html.DisplayFor(modelItem => item.CarPrice)</p>
+                </div>
+        </div>
+        </a>
+    </div>
+}
+
+

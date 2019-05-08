@@ -1,0 +1,96 @@
+﻿@model IEnumerable<Denemem.Models.ResInfoView>
+
+@{
+    ViewBag.Title = "MyReservation";
+    Layout = "~/Views/Home/_Shared.cshtml";
+    TimeSpan days;
+    double toplamfiyat;
+    string a = null;
+
+}
+<script type="text/javascript">
+    function Alert() {
+
+        alert('Rezervasyonunuz Silindi.');
+
+}
+</script>
+
+
+    @foreach (var item in Model)
+    {
+
+        days = (TimeSpan)(Convert.ToDateTime(item.ReservationEndDate) - Convert.ToDateTime(item.ReservationStartDate));
+
+        toplamfiyat = Convert.ToDouble(days.TotalDays) * Convert.ToDouble(item.CarPrice);
+        if (Convert.ToBoolean(item.ReservationStuation))
+        {
+            a = "Rezervasyon onaylı";
+        }
+        else
+        {
+            a = "Rezervasyon iptal edildi";
+        }
+
+        string ımg = @item.CarModel + ".png";
+
+        <div id="ReservariotnDiv">
+            <div><img src="~/Content/Img/@ımg" width="40%" height="40%" style=" margin:10%" /></div>
+            @using (Html.BeginForm("CanceledReservation", "Home", FormMethod.Post))
+            {
+                <table id="CarInfo">
+                    <tr>
+                        <td>Rezervasyon Numarası </td>
+                        <td><input name="ReservationID" value="@item.ReservationID" /></td>
+                    </tr>
+                    <tr>
+                        <td>Tc</td>
+                        <td><input name="CustomerSSN" value="@item.CustomerSSN" /></td>
+                    </tr>
+                    <tr>
+                        <td>İsim</td>
+                        <td><input name="CustomerName" value="@item.CustomerName" /></td>
+                    </tr>
+                    <tr>
+                        <td>Model</td>
+                        <td><input name="CarModel" value="@item.CarModel" /></td>
+                    </tr>
+                    <tr>
+                        <td>Yıl</td>
+                        <td><input name="CarYear" value="@item.CarYear" /></td>
+                    </tr>
+                    <tr>
+                        <td>Plaka</td>
+                        <td><input name="CarPlate" value="@item.CarPlate" /></td>
+                    </tr>
+                    <tr>
+                        <td>Günlük Fiyat</td>
+                        <td><input name="CarPrice" value="@item.CarPrice" /></td>
+                    </tr>
+                    <tr>
+                        <td>Toplam Fiyat</td>
+                        <td><input name="CarPrice" value="@toplamfiyat" /></td>
+                    </tr>
+                    <tr>
+                        <td>Başlangıç Tarihi</td>
+                        <td><input name="CarPrice" value="@item.ReservationStartDate.ToString()" /></td>
+                    </tr>
+                    <tr>
+                        <td>BitişTarihi</td>
+                        <td><input name="CarPrice" value="@item.ReservationEndDate.ToString()" /></td>
+                    </tr>
+                    <tr>
+                        <td>Rezervasyon Durumu</td>
+                        <td><input name="CarPrice" value="@a" /></td>
+                    </tr>
+                </table>
+                <div>
+                    <p>
+                        <input type="submit" style="width:200px;" onclick=Alert() value="İptal Et" />
+                    </p>
+                </div>
+            }
+        </div>
+
+
+    }

@@ -1,0 +1,244 @@
+﻿@import url(normalize.css);
+
+body{
+    font-family:Verdana,Arial;
+    font-size:14px;
+    background-color:#b9ddb4;
+    
+}
+
+header{
+    height:44px;
+}
+
+
+
+img {
+    float: left;
+}
+li {
+
+    float: left;
+}
+
+ul {
+    height:44px;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+        background-color: #b9ddb4;
+    }
+
+
+
+
+/* ******** INFO CSS***********/
+
+
+#CarInfo {
+    border-collapse: collapse;
+    margin: 4em auto;
+    padding: 1em;
+    max-width: 640px;
+    background-color:grey;
+    border-radius:20px;
+    
+
+    
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/****************  MYRESERVATİON CSS ********/
+input,textarea {
+  -webkit-transition: border, 100ms;
+  transition: border, 100ms;
+  font-size: 1em;
+  font-family: 'Open Sans', helvetica, sans-serif;
+  line-height: 1.5em;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: .5em 1em;
+  border: none;
+  background: #e2e2e2;
+  display: block;
+  margin: .5em 0;
+}
+input:focus,textarea:focus {
+  border-left: 0.5em solid tomato;
+}
+input:focus,textarea:focus {
+  color: #333;
+}
+input:focus,textarea:focus {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  background: url('images/bg-stripes.png');
+}
+ 
+
+ 
+input[type="text"] {
+  width: 100%;
+}
+
+input[type="submit"] {
+  -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  display: block;
+  margin: 0 auto;
+  padding: .5em 2em;
+  width: 50%;
+  border: none;
+  border-radius: 0.3em;
+  background-color: grey;
+  color: white;
+  font-size: 1em;
+}
+input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus {
+  background-color: tomato;
+  color: white;
+}
+
+
+
+#Customertable{
+    margin: 4em auto;
+    padding: 1em;
+    max-width: 640px;
+    background: white;
+    border-radius: 0.25em;
+
+}
+
+.editor-label,.editor-field{
+    margin-left:35%;
+}
+
+
+#ReservariotnDiv{
+    background-color:#b9ddb4;
+    border-top:2px solid grey;
+    border-bottom:2px solid grey;
+    width:50%;
+    float:left;
+}
+
+
+
+    /************ INDEX **************/
+
+.icerik{
+	width:80%;
+	height:100%;
+	background-color:#E0FFFF;
+	margin-left:15%;
+    margin-right:15%;
+    border-radius:20px;
+}
+.satir{
+	width:100%;
+	height:150px;
+	background-color: #f3f3f3;
+	margin-top:10px;
+	text-align:center;
+    border-radius:20px;
+    border-left: 0.5em solid grey;
+    padding:10px;
+
+	
+}
+
+.satir:hover
+{
+
+     background-color:grey;
+     color: white;
+}
+
+#IndexImg{
+    width:20%;
+    height:150px;
+    margin-left:50px;
+  
+}
+
+#IndexPdiv{
+    width:50%;
+    float:left;
+    padding-top:45px;
+    font-weight:bold;
+    color:#000000;
+    font-family:'Franklin Gothic';
+    font-size:16px;
+}
+#IndexPdiv1{
+    padding-top:45px;
+    width:auto;
+    text-align:center;
+    font-weight:bold;
+    color:#000000;
+    font-family:'Franklin Gothic';
+    font-size:16px;
+}
+
+
+
+
+
+
+
+
+    /***************** RESERVATİON CSS **********/
+    #ReservationButton{
+          -webkit-transition-property: background-color, color;
+  transition-property: background-color, color;
+  -webkit-transition-duration: 200ms;
+  transition-duration: 200ms;
+  display: block;
+  margin: 0 auto;
+  padding: .5em 2em;
+  width: 50%;
+  border: none;
+  border-radius: 0.3em;
+  background-color: grey;
+  color: white;
+  font-size: 1em;
+ }
+
+ #ReservationButton:hover, input[type="submit"]:active, input[type="submit"]:focus {
+  background-color: tomato;
+  color: white;
+}
+

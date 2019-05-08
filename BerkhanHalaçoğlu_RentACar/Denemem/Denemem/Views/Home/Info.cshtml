@@ -1,0 +1,96 @@
+﻿@model Denemem.Models.Car
+
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Home/_Shared.cshtml";
+    string a = "/Home/AddCustomer";
+    string ımg = @Model.CarModel + ".png";
+}
+
+<script type="text/javascript">
+    function Customer_kayit() {
+
+        alert('Rezervayon yapıldı.');
+}
+</script>
+
+<div>
+    <img src="~/Content/Img/@ımg" width="30%" height="30%"> </img>
+</div>
+
+<div>
+    @using (Html.BeginForm("AddCustomer", "Home", FormMethod.Post))
+    {
+        
+        <table id="CarInfo">
+            <tr>
+                <td>Model</td>
+                <td><input name="CarID" value="@Model.CarID" /></td>
+            </tr>
+            <tr>
+                <td>Model</td>
+                <td>@Model.CarModel</td>
+            </tr>
+            <tr>
+                <td>Yılı</td>
+                <td>@Model.CarYear</td>
+            </tr>
+            <tr>
+                <td>Plaka</td>
+                <td>@Model.CarPlate</td>
+            </tr>
+            <tr>
+                <td>Price</td>
+                <td>@Model.CarPrice</td>
+            </tr>
+        </table>
+
+        <fieldset id="Customertable">
+            <legend>Customer İnformation</legend>
+
+            <div class="editor-label">
+                <label>Customer TC</label>
+            </div>
+            <div class="editor-label">
+                <input name="TC" />
+            </div>
+
+            <div class="editor-label">
+                <label>Customer Name</label>
+            </div>
+            <div class="editor-field">
+                <input name="CustomerName" />
+            </div>
+
+            <div class="editor-label">
+                <label>Customer Phone Number</label>
+            </div>
+            <div class="editor-field">
+                <input name="CustomerPhone" />
+            </div>
+
+            <div class="editor-label">
+                <label>Customer Address</label>
+            </div>
+            <div class="editor-field">
+                <textarea rows="5" name="CustomerAddress"></textarea>
+            </div>
+
+            <div class="editor-label">
+                <label>Start Date</label>
+            </div>
+            <div class="editor-field">
+                <input type="datetime" name="Start">
+            </div>
+            <div class="editor-label">
+                <label>End Date</label>
+            </div>
+            <div class="editor-field">
+                <input type="datetime" name="End">
+            </div>
+            <p>
+                <input type="submit" onclick=Customer_kayit() value="Kaydet" />
+            </p>
+        </fieldset>
+    }
+</div>

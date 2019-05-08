@@ -1,0 +1,150 @@
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\ApplicationInsights.config
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\csc.exe
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\vbc.exe
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Denemem.dll.config
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Denemem.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Denemem.pdb
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\EntityFramework.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\EntityFramework.SqlServer.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.Web.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Helpers.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Mvc.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Razor.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.Razor.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\EntityFramework.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\EntityFramework.SqlServer.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.Web.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Razor.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Webpages.Razor.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Helpers.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\bin\System.Web.Mvc.xml
+C:\Users\berkh\Desktop\Denemem\Denemem\obj\Debug\Denemem.dll
+C:\Users\berkh\Desktop\Denemem\Denemem\obj\Debug\Denemem.pdb
+C:\Users\berkh\Desktop\Denemem\Denemem\obj\Debug\Denemem.csprojResolveAssemblyReference.cache
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\ApplicationInsights.config
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\csc.exe
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\vbc.exe
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Denemem.dll.config
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Denemem.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Denemem.pdb
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\EntityFramework.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\EntityFramework.SqlServer.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.Web.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Helpers.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Mvc.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Razor.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.Razor.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\EntityFramework.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\EntityFramework.SqlServer.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.Web.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Razor.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Webpages.Razor.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Helpers.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\bin\System.Web.Mvc.xml
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\obj\Debug\Denemem.csprojResolveAssemblyReference.cache
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\obj\Debug\Denemem.dll
+C:\Users\Selahattin\Documents\Visual Studio 2015\Projects\Denemem\Denemem\obj\Debug\Denemem.pdb
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\ApplicationInsights.config
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\csc.exe
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\vbc.exe
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Denemem.dll.config
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Denemem.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Denemem.pdb
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\EntityFramework.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\EntityFramework.SqlServer.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.Web.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Helpers.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Mvc.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Razor.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.Deployment.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.Razor.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\EntityFramework.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\EntityFramework.SqlServer.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.Web.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Razor.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.Deployment.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Webpages.Razor.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Helpers.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\bin\System.Web.Mvc.xml
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\obj\Debug\Denemem.csprojResolveAssemblyReference.cache
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\obj\Debug\Denemem.dll
+C:\Users\berkh\Desktop\prohe\Denemem\Denemem\obj\Debug\Denemem.pdb

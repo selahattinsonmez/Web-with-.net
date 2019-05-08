@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/Content/Css/Style.css" rel="stylesheet" />
+
+</head>
+<header>
+    <ul>
+        <img src="~/resim/beats.png" width="50px" height="50px" />
+         <li style="margin-left:35%"><a href="/Home/Index">AnaSayfa</a></li>
+        <li><a href="/Home/Reservation">Reservasyonum</a></li>
+        <li><a href="/Home/About">Hakkimizda</a></li>
+        <li><a href="/Home/Contact">Iletisim</a></li>
+
+    </ul>
+</header>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+
+</html>
+
